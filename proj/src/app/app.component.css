@@ -1,0 +1,106 @@
+p{
+    margin-bottom: 0px !important;
+}
+.page__header{
+    background:white;
+    position: fixed;  
+    width: 100%;
+    z-index: 1;
+    box-shadow: 5px 5px 9px #404040;
+    font-family: Trebuchet MS !important;
+}
+.page__heading {
+    margin: 2% 48%;
+    text-align: center;
+    color: #993399;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.page__header.page__container{
+    background-color: white !important;
+}
+.page__container {
+    background: url(../assets/fasionImage.PNG) no-repeat;
+    background-size: cover;
+    font-family: Trebuchet MS;
+    padding: 180px 5% 3% 5%;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login {
+    font-size: 50px;
+    font-family: initial;
+    display: flex;
+    justify-content: center;
+}
+
+.page__bgd {
+    background-color: aliceblue;
+    border-radius: 12px;
+    padding: 40px;
+    width: 30%;
+    height: 47vh;
+}
+
+.header__image{
+    padding: 20%;
+    height:120px;
+    display: inline;
+}
+button:focus {
+    outline: none;
+    background-color: #993399;
+}
+button {
+    background-color: #862d85;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color ease-in-out 0.1s;
+}
+button:hover {
+    background-color: #441643;
+}
+.after-submit-bg {
+    width: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}       
+.after-submit-bg__container {
+    height: 100vh;
+    overflow: hidden;
+}
+.questionImage {
+    width: 300px
+}
+
+.img__container {
+    padding: 5px 60px;
+}
+
+input[type="text"] {    
+    width: 20%;
+    padding: 11px 20px;
+    margin: 120px 25px;
+    border: 2px solid #d279d2;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px #a6a6a6;
+    float: right;
+    transition: border ease-in-out 0.3s;
+}
+input:focus {
+    outline: none;
+    border: 2px solid #993399;
+}

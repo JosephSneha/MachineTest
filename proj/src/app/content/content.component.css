@@ -1,0 +1,16 @@
+.heading { 
+    font-family: emoji;
+    font-size: 50px;
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+    margin: 20px;
+}
+.img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgcvr {
+    cursor: pointer;
+}

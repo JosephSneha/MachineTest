@@ -1,0 +1,22 @@
+.page__header{
+    background:white;
+    position: fixed;  
+    width: 100%;
+    z-index: 1;
+    box-shadow: 5px 5px 9px #404040;
+    font-family: Trebuchet MS !important;
+}
+.page__heading {
+    margin: 2% 48%;
+    text-align: center;
+    color: #993399;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.page__header.page__container{
+    background-color: white !important;
+}
+.header {
+    padding-top: 200px;
+    padding-left: 100px;
+}
